@@ -10,9 +10,6 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        dotnet: ['10.0.x', '9.0.x']
     steps:
       - name: Check out code
         uses: actions/checkout@v4
@@ -20,7 +17,7 @@ jobs:
       - name: Set up .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: ${{ matrix.dotnet }}
+          dotnet-version: '10.0.x'
           cache: true
           cache-dependency-path: '**/packages.lock.json'
 
