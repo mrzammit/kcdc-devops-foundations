@@ -1,4 +1,4 @@
-![CI](https://github.com/mrzammit/kcdc-devops-foundations/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/mrzammit/kcdc-devops-foundations/actions/workflows/ci.yaml/badge.svg)
 
 
 # DevOps Foundations: From Code Commit to Production Confidence
